@@ -1,0 +1,36 @@
+{
+  "selected_model_by_oof_f1": "Regresi\u00f3n Log\u00edstica balanceada",
+  "selected_threshold": 0.860017683292415,
+  "test_default_threshold_metrics": {
+    "accuracy": 0.918,
+    "precision_positive": 0.45454545454545453,
+    "recall_positive": 0.9205776173285198,
+    "f1_positive": 0.6085918854415274,
+    "roc_auc": 0.9698653409239666
+  },
+  "test_selected_threshold_metrics": {
+    "accuracy": 0.95225,
+    "precision_positive": 0.6310975609756098,
+    "recall_positive": 0.7472924187725631,
+    "f1_positive": 0.684297520661157,
+    "roc_auc": 0.9698653409239666
+  },
+  "baseline_test": {
+    "accuracy_test": 0.93075,
+    "precision_positive_test": 0.0,
+    "recall_positive_test": 0.0,
+    "f1_positive_test": 0.0
+  },
+  "test_confusion_matrix": [
+    [
+      3602,
+      121
+    ],
+    [
+      70,
+      207
+    ]
+  ],
+  "random_state": 42,
+  "split": "80/20 stratified; test untouched for threshold selection"
+}

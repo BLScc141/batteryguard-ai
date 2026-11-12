@@ -1,0 +1,23 @@
+﻿{
+  "entrada": {
+    "preset_id": "EV109069",
+    "overrides": {
+      "cell_voltage_avg": 3.649,
+      "cell_temperature_max": 60.0,
+      "terrain_type": "Flat"
+    }
+  },
+  "salida": {
+    "prediccion": 0,
+    "etiqueta": "Sin falla detectada",
+    "score_riesgo": 0.447584,
+    "nivel_riesgo": "bajo",
+    "recomendaciones": [
+      "Sin alerta del clasificador; mantener el plan de seguimiento preventivo."
+    ],
+    "rsl_meses": null,
+    "tiempo_ms": 50.713,
+    "modelo": "Regresión Logística balanceada",
+    "umbral_clasificacion": 0.860018
+  }
+}
