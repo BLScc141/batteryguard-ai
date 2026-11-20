@@ -10,14 +10,14 @@
   "salida": {
     "prediccion": 0,
     "etiqueta": "Sin falla detectada",
-    "score_riesgo": 0.447584,
+    "score_riesgo": 0.103261,
     "nivel_riesgo": "bajo",
     "recomendaciones": [
       "Sin alerta del clasificador; mantener el plan de seguimiento preventivo."
     ],
     "rsl_meses": null,
-    "tiempo_ms": 50.713,
-    "modelo": "Regresión Logística balanceada",
-    "umbral_clasificacion": 0.860018
+    "tiempo_ms": 40.7,
+    "modelo": "Logistic Regression regularized C=0.1",
+    "umbral_clasificacion": 0.318373
   }
 }

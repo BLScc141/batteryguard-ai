@@ -143,6 +143,9 @@ def main():
         class_weight=None, random_state=SEED, n_jobs=-1,
     )
     specs = [
+        ("Logistic Regression regularized C=0.1", LogisticRegression(
+            class_weight=None, C=0.1, max_iter=1500, solver="lbfgs", random_state=SEED
+        ), "ohe_scaled"),
         ("Regresión Logística balanceada", LogisticRegression(
             class_weight="balanced", C=1.0, max_iter=1500, solver="lbfgs", random_state=SEED
         ), "ohe_scaled"),

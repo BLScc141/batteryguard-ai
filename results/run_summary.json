@@ -1,19 +1,19 @@
 {
-  "selected_model_by_oof_f1": "Regresi\u00f3n Log\u00edstica balanceada",
-  "selected_threshold": 0.860017683292415,
+  "selected_model_by_oof_f1": "Logistic Regression regularized C=0.1",
+  "selected_threshold": 0.31837266778886036,
   "test_default_threshold_metrics": {
-    "accuracy": 0.918,
-    "precision_positive": 0.45454545454545453,
-    "recall_positive": 0.9205776173285198,
-    "f1_positive": 0.6085918854415274,
-    "roc_auc": 0.9698653409239666
+    "accuracy": 0.96275,
+    "precision_positive": 0.8047619047619048,
+    "recall_positive": 0.6101083032490975,
+    "f1_positive": 0.6940451745379876,
+    "roc_auc": 0.9710881039028538
   },
   "test_selected_threshold_metrics": {
-    "accuracy": 0.95225,
-    "precision_positive": 0.6310975609756098,
-    "recall_positive": 0.7472924187725631,
-    "f1_positive": 0.684297520661157,
-    "roc_auc": 0.9698653409239666
+    "accuracy": 0.95775,
+    "precision_positive": 0.6730769230769231,
+    "recall_positive": 0.7581227436823105,
+    "f1_positive": 0.7130730050933786,
+    "roc_auc": 0.9710881039028538
   },
   "baseline_test": {
     "accuracy_test": 0.93075,
@@ -23,12 +23,12 @@
   },
   "test_confusion_matrix": [
     [
-      3602,
-      121
+      3621,
+      102
     ],
     [
-      70,
-      207
+      67,
+      210
     ]
   ],
   "random_state": 42,

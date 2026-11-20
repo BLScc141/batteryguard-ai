@@ -138,8 +138,8 @@
     "thermal_runaway_risk",
     "vehicle_id"
   ],
-  "selected_model": "Regresión Logística balanceada",
-  "threshold": 0.860017683292415,
+  "selected_model": "Logistic Regression regularized C=0.1",
+  "threshold": 0.31837266778886036,
   "threshold_selection": "max F1 from 5-fold out-of-fold probabilities within train; test untouched",
   "random_state": 42,
   "train_rows": 16000,
